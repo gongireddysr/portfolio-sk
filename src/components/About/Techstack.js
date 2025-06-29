@@ -8,6 +8,8 @@ import {
   DiCss3,
   DiHtml5,
   DiGit,
+  DiAngularSimple,
+
 } from "react-icons/di";
 import {
   SiNextdotjs,
@@ -32,6 +34,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">

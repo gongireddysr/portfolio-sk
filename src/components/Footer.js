@@ -21,7 +21,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/sai-kittu"
+                href="https://github.com/gongireddysr"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -40,7 +40,6 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-
           </ul>
         </Col>
       </Row>

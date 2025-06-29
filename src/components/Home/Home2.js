@@ -4,8 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -24,13 +22,17 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> HTML, CSS, Javascript and React. </b>
+                <b className="purple"> Javascript and Python. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple">Web Technologies and Products </b> and
+                also in areas related to{" "}
+                <b className="purple">
+                  Deep Learning and Natural Language Processing.
+                </b>
               </i>
               <br />
               <br />
@@ -63,26 +65,24 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                //href="https://github.com/sai-kittu"
-                //target="_blank"
-                //rel="noreferrer"
-                //className="icon-colour  home-social-icons"
+                  href="https://github.com/gongireddysr"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/saikrishnagr1/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
-
             </ul>
           </Col>
         </Row>
@@ -91,3 +91,4 @@ function Home2() {
   );
 }
 export default Home2;
+
